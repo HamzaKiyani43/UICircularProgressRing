@@ -51,7 +51,7 @@ class UICircularRingLayer: CAShapeLayer {
 
     var animationDuration: TimeInterval = 1.0
     var animationTimingFunction: CAMediaTimingFunctionName = .easeInEaseOut
-    var animated = false
+    var animated = true
 
     /// the value label which draws the text for the current value
     lazy var valueLabel: UILabel = UILabel(frame: .zero)
